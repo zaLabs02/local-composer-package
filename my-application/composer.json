@@ -1,0 +1,23 @@
+{
+    "name": "afrizalm/my-application",
+    "description": "Aplikasi sederhana untuk local dev composer package",
+    "authors": [
+        {
+            "name": "afrizal423",
+            "email": "afrizal2499@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "afrizalm/my-package": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/home/afrizalm/Documents/project/php/tutorial_composer/my-package",
+            "options": {
+              "symlink": true
+            }
+        }
+    ]
+}

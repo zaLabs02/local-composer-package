@@ -1,0 +1,19 @@
+{
+    "name": "afrizalm/my-package",
+    "description": "Package sederhana untuk project Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "afrizal423",
+            "email": "afrizal2499@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "afrizalm\\Package\\": "src"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e8b76a526b4400bf4724c0c36bebbc3c",
+    "packages": [
+        {
+            "name": "afrizalm/my-package",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/home/afrizalm/Documents/project/php/tutorial_composer/my-package",
+                "reference": "3504e010a5081e5e993752abcb5e364c477cca98"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "afrizalm\\Package\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "afrizal423",
+                    "email": "afrizal2499@gmail.com"
+                }
+            ],
+            "description": "Package sederhana untuk project Laravel",
+            "transport-options": {
+                "symlink": true,
+                "relative": false
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "afrizalm/my-package": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
